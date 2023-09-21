@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CAPS converter</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>CAPS converter</header>
+    <div class="signin">
+      <header>Sign in</header>
+      <input type="text" placeholder="Enter your username" />
+      <button onclick="checkUsername()">Sign in</button>
+    </div>
+    <div class="box" style="display: none">
+      <input type="text" placeholder="Enter a sentence" />
+      <button onclick="convertToCaps()">Go</button>
+      <textarea class="output" placeholder="Output"></textarea>
+      <button class="copy">Copy</button>
+    </div>
+    <p class="guest">
+      **If you are not a WS employee or are new after 9/20/2023, use username
+      <strong>guest1</strong>
+    </p>
+    <script src="script.js"></script>
+  </body>
+</html>
