@@ -81,10 +81,10 @@ function convertToLower() {
   input.value = "";
 }
 
-document
-  .querySelector(".box input[type='text']")
-  .addEventListener("keydown", function (event) {
-    if (event.key === "Enter") {
-      convertToCaps();
-    }
-  });
+// document
+//   .querySelector(".box input[type='text']")
+//   .addEventListener("keydown", function (event) {
+//     if (event.key === "Enter") {
+//       convertToCaps();
+//     }
+//   });
